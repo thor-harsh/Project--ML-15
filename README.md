@@ -12,9 +12,9 @@ There is no need to pre-specify the number of clusters. Instead, the dendrogram 
 Data is easily summarized/organized into a hierarchy using dendrograms. Dendrograms make it easy to examine and interpret clusters.<br></br>
 
 **Hierarchical clustering algorithms are of 2 types**:<br></br>
-**1. Divisive**-<br></br>
+**1. Divisive**:<br></br>
 This is a top-down approach, where it initially considers the entire data as one group, and then iteratively splits the data into subgroups. If the number of a hierarchical clustering algorithm is known, then the process of division stops once the number of clusters is achieved. Else, the process stops when the data can be no more split, which means the subgroup obtained from the current iteration is the same as the one obtained from the previous iteration (one can also consider that the division stops when each data point is a cluster).<br></br>
-**2. Agglomerative**-<br></br>
+**2. Agglomerative**:<br></br>
 It is a bottom-up approach that relies on the merging of clusters. Initially, the data is split into m singleton clusters (where the value of m is the number of samples/data points). Two clusters are merged into one iteratively thus reducing the number of clusters in every iteration. This process of merging clusters stops when all clusters have been merged into one or the number of desired clusters is achieved.<br></br>
 
 **Steps to do Hierarchical Clustering**<br></br>
