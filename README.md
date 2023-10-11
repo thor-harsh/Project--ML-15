@@ -16,8 +16,7 @@ Step 1: Compute the proximity matrix using a particular distance metric.<br></br
 Step 2: Each data point is assigned to a cluster.<br></br>
 Step 3: Merge the clusters based on a metric for the similarity between clusters.<br></br>
 Step 4: Update the distance matrix.<br></br>
-Step 5: Repeat Step 3 and Step 4 until only a single cluster remains.<br></br>
-
+Step 5: Repeat Step 3 and Step 4 until only a single cluster remains.
 
 
 
